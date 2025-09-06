@@ -1,5 +1,5 @@
-# Estudo documentação de codigo
-Estudo sobre documentação de APIs.
+# Estudo documentação de APIs
+Estudo sobre documentação de APIs REST.
 
 ##Endpoints:
 
@@ -69,7 +69,7 @@ email: Email do usuário
 
 password: Senha do usuário
 
-Exemplo de resposta:
+Exemplo de body request:
 
 ```
 {
@@ -92,7 +92,7 @@ Exemplo de resposta:
 ```
 
 ##### Bad Request 400
-Caso essa resposta aconteça, significa que foram informados valores vazios.
+Caso essa resposta aconteça, significa que foram informados valores vazios ou incorretos.
 
 Exemplo de resposta:
 
